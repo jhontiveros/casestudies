@@ -57,7 +57,7 @@ nav{
     border-radius: 2px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:420px){
     body{
         overflow-x: hidden;
     }
