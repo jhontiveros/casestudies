@@ -11,12 +11,13 @@ nav{
     min-height: 8vh;
     background-color: aquamarine;
     font-family: 'Trispace', sans-serif;
+    
+    z-index: 3;
 }
 
 .logo{
-    color: white;
-    letter-spacing: 5px;
-    font-size: 22px;
+    height: 60px;
+    width: 60px;
     margin-left: 30px;
 }
 
@@ -90,6 +91,15 @@ nav{
 }
 .toggle .line3{
     opacity: 0;
+}
+
+.box {
+    background-color: blue;
+    width: 300px;
+    height: 450px;
+    margin-left: 70vw;
+    transform: rotate(-55deg);
+    margin-top: -35vh;
 }
 
 
